@@ -16,16 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
 
-        // TODO: Pt 1 - Initialize Parse SDK
-
-        // Add the following values from your Parse server.
-        // For back4app hosted Parse servers:
-        //   - App Settings tab -> Security & Keys -> App Keys -> applicationId + clientKey
-        //   - App Settings tab -> App Management -> Parse API Address
+        // Initialize Parse SDK
         // https://github.com/parse-community/Parse-Swift/blob/main/ParseSwift.playground/Sources/Common.swift
-        ParseSwift.initialize(applicationId: "your_app_id_here",
-                              clientKey: "your_client_key_here",
-                              serverURL: URL(string: "your_parse_api_address_here")!)
+        ParseSwift.initialize(applicationId: "3HCrrkNcEI5btO4PjOaJxIsQiyecGVvASZoSzj9A",
+                              clientKey: "ApHTNJ2HWWxirTC0ZzJ9t4uf1wBybBCbJQAk2oIg",
+                              serverURL: URL(string: "https://parseapi.back4app.com")!)
 
         // TODO: Pt 1: - Instantiate and save a test parse object to your server
         // https://github.com/parse-community/Parse-Swift/blob/3d4bb13acd7496a49b259e541928ad493219d363/ParseSwift.playground/Pages/1%20-%20Your%20first%20Object.xcplaygroundpage/Contents.swift#L121
