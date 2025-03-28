@@ -1,12 +1,8 @@
-# Project 3 - *Instaparse*
-
-TODO// Update README with new lab 6 gif
-
-![instaparse_walkthrough_1_xtra_small](https://user-images.githubusercontent.com/11927517/199710313-700aef85-ba89-427c-aa07-f89f0fdfdbbe.gif)
+# Project 3 - BeReal Clone
 
 Submitted by: Kiran Brahmatewari
 
-**Name of your app** is an app that introduces ... [TODO] 
+**BeReal Clone** is an app that introduces ... [TODO] 
 
 Time spent: **X** hours spent in total
 
